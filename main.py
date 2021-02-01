@@ -5,7 +5,6 @@ pattern = lets2+ints
 pattern_len = len(pattern)
 
 print(pattern)
-found = []
 
 def genFromPattern(pat: str, xs: bytearray) -> str:
   f_str = ""
